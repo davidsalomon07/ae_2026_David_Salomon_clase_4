@@ -16,6 +16,7 @@ fun main() {
         id = 1,
         isActive = true
     )
+    val ana = Student(1, "Ana", "ana@puce.com", 10, true)
     
     println(jorge)
     
