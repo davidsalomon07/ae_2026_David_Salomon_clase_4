@@ -1,0 +1,22 @@
+// ae_2026_David_Salomon_clase_4_main.kt
+// estructura del commit clase_4.3 {{valor incremental}}
+data class Student(
+	val id: Long,
+    val name: String,
+    val email: String,
+    val grade: Int,
+    val isActive: Boolean,
+)
+
+fun main() {
+    val jorge = Student(
+        name = "Jorge",
+        email = "jorge@puce.com",
+        grade = 8,
+        id = 1,
+        isActive = true
+    )
+    
+    println(jorge)
+    
+}
